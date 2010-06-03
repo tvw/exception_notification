@@ -6,6 +6,9 @@ Gem::Specification.new do |s|
   s.summary = "Exception notification by email for Rails apps"
   s.email = "timocratic@gmail.com"
 
-  s.files = ['README'] + Dir['lib/**/*']
+  s.files = ['README.rdoc'] + Dir['lib/**/*']
+
+  s.extra_rdoc_files = ['README.rdoc']
+
   s.require_path = 'lib'
 end
